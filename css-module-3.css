@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  font-size: 16px;
+  color: #000;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+/** HEADER **/
+
+.navbar{
+	background-color: #999999;
+}
+
+.navbar-brand {
+	font-weight: bold; 
+	color: #000000;
+}
+
+.navbar-brand h1 { /* Food, LLC */
+  font-family: "Comic Sans MS", sans-serif;
+  color: #000000;
+  font-size: 24px;
+  font-weight:600;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 22px;
+}
+
+
+
+.nav-item {
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	margin: 2 -10 2 -10;
+}
+
+.nav-item a {
+	text-align: center;
+	color:000000;
+}
+
+
+/** body **/
+
+.container {
+	margin: 10 auto 10 auto;
+	padding-right: auto;
+	
+}
+
+.container h1 {
+margin-bottom: 5%; 
+	}
+
+.container .menu-item {
+	background-color: #999999;
+	padding: 15px;
+	margin-bottom: 20px;
+	}
+
+.container h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.container p {
+	font-size: 16px;
+	padding:10px;
+}
